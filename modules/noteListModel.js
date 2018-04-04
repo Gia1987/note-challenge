@@ -3,6 +3,11 @@
     this.note = [];
   };
 
+  NoteList.prototype.createNote = function(text){
+    var note = new Note(text);
+    this.addNote(note);
+  }
+
   NoteList.prototype.addNote = function(note){
     this.note.push(note);
   };
