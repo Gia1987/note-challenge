@@ -2,20 +2,26 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <!-- Assert Module -->
+    <script src="./lib/assert.js"></script>
+
+    <!-- controller -->
+    <script src="./controller/note-controller.js"></script>
+
     <!-- Module file -->
-    <script src="lib/assert.js"></script>
-    <script src="modules/note.js"></script>
-    <script src="modules/noteListModel.js"></script>
-    <script src="modules/noteListView.js"></script>
+
+    <script src="./modules/note.js"></script>
+    <script src="./modules/noteListModel.js"></script>
+    <script src="./modules/noteListView.js"></script>
+
     <!-- Test file  -->
-    <script src="spec/noteSpec.js"></script>
-    <script src="spec/noteListViewSpec.js"></script>
-    <script src="spec/noteListSpec.js"></script>
+    <script src="./spec/noteSpec.js"></script>
+    <script src="./spec/noteListViewSpec.js"></script>
+    <script src="./spec/noteListSpec.js"></script>
+
     <title>Note</title>
   </head>
   <body>
-    <div id='app'>
-      <p>Hello!</p>
-    </div>
+    <div id='app'>Hello!</div>
   </body>
 </html>

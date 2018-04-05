@@ -22,7 +22,7 @@
   exports.TestNoteCreateNote = TestNoteCreateNote();
 
   exports.testNoteListAddAndGet = testNoteListAddAndGet();
-  
+
   exports.TestNoteIsEmpty = TestNoteIsEmpty();
 
 })(this);
