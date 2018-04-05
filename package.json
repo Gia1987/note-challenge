@@ -1,0 +1,26 @@
+{
+  "name": "note",
+  "version": "1.0.0",
+  "description": "This project builds a front end single page app built using pure Javascript. It    uses the event handlers provided by DOM instead of jQuery.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gia1987/note-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gia1987/note-challenge/issues"
+  },
+  "homepage": "https://github.com/Gia1987/note-challenge#readme",
+  "dependencies": {
+    "hapi": "^17.3.1",
+    "http-server": "^0.11.1"
+  }
+}
